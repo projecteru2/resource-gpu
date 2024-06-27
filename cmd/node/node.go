@@ -3,8 +3,8 @@ package node
 import (
 	"encoding/json"
 
-	"github.com/yuyang0/resource-gpu/cmd"
-	"github.com/yuyang0/resource-gpu/gpu"
+	"github.com/projecteru2/resource-gpu/cmd"
+	"github.com/projecteru2/resource-gpu/gpu"
 
 	enginetypes "github.com/projecteru2/core/engine/types"
 	"github.com/projecteru2/core/resource/plugins/binary"

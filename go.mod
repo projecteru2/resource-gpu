@@ -1,4 +1,4 @@
-module github.com/yuyang0/resource-gpu
+module github.com/projecteru2/resource-gpu
 
 go 1.20
 

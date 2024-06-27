@@ -7,14 +7,14 @@ import (
 
 	"github.com/projecteru2/core/resource/plugins"
 	coretypes "github.com/projecteru2/core/types"
+	"github.com/projecteru2/resource-gpu/cmd"
+	"github.com/projecteru2/resource-gpu/cmd/calculate"
+	"github.com/projecteru2/resource-gpu/cmd/gpu"
+	"github.com/projecteru2/resource-gpu/cmd/metrics"
+	"github.com/projecteru2/resource-gpu/cmd/node"
+	gpulib "github.com/projecteru2/resource-gpu/gpu"
+	"github.com/projecteru2/resource-gpu/version"
 	"github.com/urfave/cli/v2"
-	"github.com/yuyang0/resource-gpu/cmd"
-	"github.com/yuyang0/resource-gpu/cmd/calculate"
-	"github.com/yuyang0/resource-gpu/cmd/gpu"
-	"github.com/yuyang0/resource-gpu/cmd/metrics"
-	"github.com/yuyang0/resource-gpu/cmd/node"
-	gpulib "github.com/yuyang0/resource-gpu/gpu"
-	"github.com/yuyang0/resource-gpu/version"
 )
 
 func NewPlugin(ctx context.Context, config coretypes.Config) (plugins.Plugin, error) {

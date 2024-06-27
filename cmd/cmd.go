@@ -8,8 +8,8 @@ import (
 
 	resourcetypes "github.com/projecteru2/core/resource/types"
 	"github.com/projecteru2/core/utils"
+	"github.com/projecteru2/resource-gpu/gpu"
 	"github.com/urfave/cli/v2"
-	"github.com/yuyang0/resource-gpu/gpu"
 )
 
 var (
